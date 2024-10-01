@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="EchoCrypt">
+    <meta name="description" content="EchoCrypt is a program that allows you to encrypt and decrypt messages using a key.">
+    <meta name="keywords" content="encryption, decryption, tool, AES, web">
+    <meta name="author" content="3kh0">
+
+    <title>EchoCrypt</title>
+    <script src="encryption.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>EchoCrypt</h1>
+    <form>
+      <div>
+        <label for="key">Key:</label>
+        <input type="text" id="key" name="key">
+      </div>
+      <div>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+      </div>
+      <div>
+        <button type="button" onclick="encrypt()">Encrypt</button>
+        <button type="button" onclick="decrypt()">Decrypt</button>
+      </div>
+      <div>
+        <label id="resulttxt" for="result">Result:</label>
+        <textarea id="result" name="result" readonly></textarea>
+      </div>
+      <p>EchoCrypt is a program that allows you to encrypt and decrypt messages using a key. </p>
+        
+    </form>
+
+    <footer>
+      <p>&copy; 2024 Alen Shyju. All Rights Reserved.</p>
+      <div class="footer-links">
+        <a href="#">Contact Us</a> | 
+        <a href="https://github.com/alenshyju">Github</a> | 
+        <a href="https://www.instagram.com/alen_shyju_?igsh=MXc2c2FtcWc4Yzl0aA==">Instagram</a> | 
+        <a href="https://www.linkedin.com/in/alen-p-shyju-503b56253/">LinkedIn</a>
+      </div>
+    </footer>
+  </body>
+</html>
